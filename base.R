@@ -1,4 +1,5 @@
 library(utils)
+Sys.setlocale("LC_ALL","C")
 
 readdata <- function() {
     getCompressedDataFile <- function() {
